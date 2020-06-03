@@ -10,10 +10,12 @@ Downloadable CSV Data is available here: https://github.com/microsoft/Bing-COVID
 
 The three methods used will be:
 
-- Python with Jupyter Notebooks, Matplotlib, and gmaps for interactive heatmapping (See file: covid_analysis.ipynb)
+- Python with Jupyter Notebooks, Matplotlib, and gmaps for interactive heatmapping (be sure to enable widgets to view the heatmaps! They won't display the interactive version without this!)
 - Tableau to create interactive maps and dashboards (link below)
 - React application using D3 (or Plotly), Mapbox, with back-end powered by Flask and querying with GraphQL (coming soon!)
 
+Hosted Jupyter Notebook: See file covid_analysis.ipynb in this repository. An interactive version is viewable in Google Colab here: https://colab.research.google.com/github/Unionindesign/COVID19_DataVis/blob/master/covid_analysis.ipynb
+
 Tableau Public Workbook: https://public.tableau.com/profile/stephen.marshall5738#!/vizhome/COVID-19InteractiveDataVisualizationandMapping/COVID19-MicrosoftBingTracker
 
-Additionally, to prove my abilities using SQL and PostgreSQL with Amazon Redshift, I've also included a SQL directory showing a query that powers one of my company FareHarbor's dashboards for the onboarding team. This query is not related to the COVID dataset, which was available as a downloadable CSV so no SQL was necessary, or rather it was more efficient to pull this directly in a Pandas Dataframe.
+Additionally, to prove my abilities using SQL and PostgreSQL with Amazon Redshift, I've also included a SQL directory in this repository showing a query that powers one of my company FareHarbor's dashboards for the onboarding team. This query is not related to the COVID dataset, which was available as a downloadable CSV so no SQL was necessary, or rather it was more efficient to pull this directly into a Pandas Dataframe.
